@@ -9,7 +9,7 @@ const Footer = ()=>{
                 <ul className="group">
                     {
                         socialMediaData.map((social)=>
-                        <li><a href={`https://${social.text}.com`}><img className="icon" src={`https://landonhotel.com/images/socialmedia/${social.text}.png`} alt={`icon for ${social.text}`} /></a></li>
+                        <li><a href={`https://${social.href}.com`}><img className="icon" src={`${social.src}`} alt={`icon for ${social.alt}`} /></a></li>
                         )
                     }  
                 </ul>      

@@ -8,7 +8,7 @@ const WelcomeComponent = ()=>{
               <div className="gallery">
                 {
                   galleryIntroData.map((intro)=>
-                    <img className={intro.class} src={`https://landonhotel.com/images/hotel/intro_${intro.src}.jpg`} alt={`Intro Gallery ${intro.alt} Sample Pictures`} />
+                    <img className={intro.class} src={`${intro.src}`} alt={`${intro.alt}`} />
                   )
                 }
                 
